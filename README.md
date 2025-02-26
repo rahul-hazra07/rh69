@@ -1,12 +1,21 @@
-- 👋 Hi, I’m Rahul Hazra and currently pursuing an M.Sc. in Computer Science
-- 👀 My passion lies at the intersection of several exciting fields: Data Structures and Algorithms (DSA), Web Development, Artificial Intelligence and Machine Learning (AI/ML), and Software Engineering. 
-- 🌱 I’m currently learning dsa with c++
-- 💞️ I’m looking to collaborate on various industrial WebDev projects,start-up companies and a product based company.
-- 📫 How to reach me : email: rhazra97@gmail.com 
-- 😄 Pronouns: ...
-- ⚡ Fun fact: 
+# README: Setting Up Your Environment with Pipenv
 
-<!---
-rh69/rh69 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## Prerequisite: Install Pipenv
+Follow the official Pipenv installation guide to set up Pipenv on your system:  
+[Install Pipenv Documentation](https://pipenv.pypa.io/en/latest/installation.html)
+
+---
+
+## Steps to Set Up the Environment
+
+### Install Required Packages
+Run the following commands in your terminal (assuming Pipenv is already installed):
+
+```bash
+pipenv install langchain langchain_community langchain_huggingface faiss-cpu pypdf
+pipenv install huggingface_hub
+pipenv install streamlit
+
+#you need to create a .env file that include your hugging face api token value. HF_TOKEN=""
+
+
